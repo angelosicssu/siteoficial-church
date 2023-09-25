@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Squada+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root {
+    --fonte-principal: 'Squada One', cursive;
+    --fonte-secundaria: 'Roboto', sans-serif;
+    --cor-principal: #fff;
+    --cor-secundaria: #000;
+}
+
+.main {
+    background-image: url('./images/video.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5rem 0;
+
+    .text {
+        font-family: var(--fonte-principal);
+        color: var(--cor-principal);
+        font-size: 75px;
+        text-transform: uppercase;
+        text-shadow: var(--cor-secundaria) 0px 1px 1px;
+    }
+
+    .video {
+        display: flex;
+        flex-direction: column;
+        gap: 3rem 0;
+
+        .videoText {
+            display: flex;
+            flex-direction: column;
+            font-family: var(--fonte-secundaria);
+            color: var(--cor-principal);
+            gap: .3rem;
+            text-transform: uppercase;
+            font-weight: bold;
+
+            h3 {
+                font-size: 50px;
+            }
+
+            h4 {
+                font-size: 25px;
+            }
+
+        }
+
+        .videoYt {
+            iframe {
+                border-radius: 20px;
+                border: solid 2px var(--cor-principal);
+            }
+        }
+
+    }
+
+}
