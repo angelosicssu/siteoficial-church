@@ -1,0 +1,20 @@
+.videoText {
+    display: flex;
+    flex-direction: column;
+    font-family: var(--fonte-secundaria);
+    color: var(--cor-principal);
+    gap: .7rem;
+    margin-left: 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: var(--cor-secundaria) 0px 1px 1px;
+
+    h3 {
+        font-size: 50px;
+    }
+
+    h4 {
+        font-size: 25px;
+    }
+
+}

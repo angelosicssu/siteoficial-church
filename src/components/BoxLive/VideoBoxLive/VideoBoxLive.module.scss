@@ -1,0 +1,8 @@
+.videoYt {
+    display: flex;
+    justify-content: center;
+    iframe {
+        border-radius: 20px;
+        border: solid 5px var(--cor-principal);
+    }
+}

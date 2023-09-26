@@ -5,6 +5,7 @@
     --background-two: #0D028E;
     --color-main: #fff;
     --color-borda: #971E49;
+    --color-list: #bab9b9;
 }
 
 .box_main {
@@ -28,12 +29,20 @@
 
         .list {
             a {
-                color: var(--color-main);
+                color: var(--color-list);
                 text-transform: uppercase;
                 font-family: 'Roboto', sans-serif;
                 font-weight: bold;
                 position: relative;
+
+                
             }
+
+            a:hover {
+                color: var(--color-main);
+                transition: 1s;
+            }
+            
             a::after {
                 content: " ";
                 width: 0%;

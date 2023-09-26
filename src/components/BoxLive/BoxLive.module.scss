@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Squada+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono&display=swap');
 
 :root {
     --fonte-principal: 'Squada One', cursive;
@@ -18,9 +19,9 @@
     padding: 5rem 0;
 
     .text {
-        font-family: var(--fonte-principal);
+        font-family: 'Martian Mono', monospace;
         color: var(--cor-principal);
-        font-size: 75px;
+        font-size: 60px;
         text-transform: uppercase;
         text-shadow: var(--cor-secundaria) 0px 1px 1px;
     }
@@ -29,33 +30,6 @@
         display: flex;
         flex-direction: column;
         gap: 3rem 0;
-
-        .videoText {
-            display: flex;
-            flex-direction: column;
-            font-family: var(--fonte-secundaria);
-            color: var(--cor-principal);
-            gap: .3rem;
-            text-transform: uppercase;
-            font-weight: bold;
-
-            h3 {
-                font-size: 50px;
-            }
-
-            h4 {
-                font-size: 25px;
-            }
-
-        }
-
-        .videoYt {
-            iframe {
-                border-radius: 20px;
-                border: solid 2px var(--cor-principal);
-            }
-        }
-
     }
 
 }

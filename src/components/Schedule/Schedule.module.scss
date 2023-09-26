@@ -1,0 +1,21 @@
+:root {
+    --color-young: #000;
+    --color-teens: #FF7A00;
+    --color-senib: #dacd69;
+    --color-culto: #0A0363;
+}
+
+.scheduleTime {
+    background-color: var(--color-teens);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 2rem;
+
+    .stopWatch {
+        display: flex;
+        gap: 1rem;
+    }
+}
